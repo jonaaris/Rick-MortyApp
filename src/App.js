@@ -45,7 +45,7 @@ fetchCharacters(initialUrl);
 
   return (
     <>
-    <Navbar brand = 'App de Rick y Morty'/>
+    <Navbar brand = 'App de Rick & Morty'/>
 <div className='container mt-5'>
   <Pagination prev={info.prev} next={info.next} onPrevious={onPrevious} onNext={onNext}  />
 <Characters characters = {characters} />
